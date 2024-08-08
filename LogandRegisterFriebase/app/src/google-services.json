@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "862459045337",
+    "project_id": "logandregist",
+    "storage_bucket": "logandregist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862459045337:android:f4542d60f5dece819165c8",
+        "android_client_info": {
+          "package_name": "com.example.logandregister"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGWxC7DVv004MAwUOMSbqrML6n8Rb_6BU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
