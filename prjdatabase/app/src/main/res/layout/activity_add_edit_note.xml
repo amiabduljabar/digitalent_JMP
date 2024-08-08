@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".AddEditNoteActivity">
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="text"
+        android:hint="Title"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textSize="18sp"
+        tools:ignore="VisualLintTextFieldSize" />
+    <EditText
+        android:id="@+id/etContent"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Content"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:padding="16dp"
+        android:layout_below="@id/etTitle"
+        android:textSize="18sp"
+        tools:ignore="VisualLintTextFieldSize"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@id/etContent"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@id/etContent"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentEnd="true"
+        android:padding="16dp"/>
+</RelativeLayout>
